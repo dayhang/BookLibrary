@@ -59,7 +59,7 @@ class Course(models.Model):
     
     def __str__(self):
         return "Name: " + self.name + "," + \
-                 "Description: " + self.description
+                 "Description: " + self.description + ","
 
 
 class Enrollment(models.Model):
