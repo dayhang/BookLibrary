@@ -12,7 +12,7 @@ from datetime import date
 
 
 # Your code starts from here:
-# Course has instructors reference field so can be used directly via forward access
+# Course has instructors reference field so can be used directly
 courses = Course.objects.filter(instructors__first_name='Yan')
 print("1. Get courses taught by Instructor `Yan`, forward")
 print(courses)
